@@ -22,10 +22,10 @@ How does this bot work? In brief: you, the streamer, download the app and instal
 ## First Steps Before Your First Hunt
 + Since the bot runs on your PC, you'll need to launch it whenever you're going villager hunting and make sure it reports for duty in your stream chat.
 + To begin your first hunt, you or a moderator would issue this command in your stream's chat: !vh hunt follow Villager Name
-++ *Note: you only need to do this once per villager hunt. The bot will automatically load into the last followed hunt each time you launch it.*
-+ If you, the streamer, are running the bot on your PC, you would then go into the bot's console window (the black box that opens when you launch the bot) type path at the prompt and press enter. This will show you the path to the island counter text file.
+ + *Note: you only need to do this once per villager hunt. The bot will automatically load into the last followed hunt each time you launch it.*
++ If you, the streamer, are running the bot on your PC, you would then go into the bot's console window (the black box that opens when you launch the bot) type **path** at the prompt and press enter. This will show you the path to the island counter text file.
 + With the above information you can add a Text (GDI) element to OBS. Check the box Read from file on the Text source and then use the browse button to pick the file mentioned in the path console command. You can customize the font/size/etc to your preference in OBS.
-++ *Note: his step is optional, if you still want to update the counter manually then skip adding the source. If you do add it, you'll only need to do this once per villager hunt. Since the counter file is named for the hunt, each time you begin a new hunt for a new villager, you'll need to change the counter source after the hunt follow command is issued.*
+ + *Note: his step is optional, if you still want to update the counter manually then skip adding the source. If you do add it, you'll only need to do this once per villager hunt. Since the counter file is named for the hunt, each time you begin a new hunt for a new villager, you'll need to change the counter source after the hunt follow command is issued.*
 
 With the above steps completed, you're ready to easily track this hunt! Note that the bot does not need to be modded in your Twitch channel as it doesn't take any actions that require moderator rights. However, if you anticipate chat being in modes that regular users can't speak in, such as Emote Only, etc, then assigning Mod or VIP to the bot might help. Since you're running the bot as a user account that you own and operate, this shouldn't present any security issues for your channel.
 
