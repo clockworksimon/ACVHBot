@@ -49,6 +49,10 @@ The bot has a number of commands to make answering questions super easy. To cut 
 + !vh reportg will report registered guesses for the current island. Add a name or number and it will report guesses for that specific island or chat user. For example !vh reportg 17 or !vh reportg zhyv0n.
 + !vh bingo helps you track bingo. Use !vh bingo username number to set who last won bingo and when, and use !vh bingo to report this information in chat.
 
+## Saved Data and Closing the Bot
+
+The bot saves all data into text files named for the hunt. The data is saved as it's entered, using a five second queuing system to minimize hard drive access frequency. This means if the bot crashes or you have to restart it you shouldn't lose any data. As long as the bot is connected to Twitch chat and receiving commands, the data should be preserved. This means that it's okay to just close the bot when you're done with it. You can type q and press enter in the console to exit out of the bot, but just closing the window when you're done hunting for the day is fine as well. The data is saved in text files; the location of the counter file that the path console command reveals is also the folder where the villager list and guess list files are stored. I don't advise changing data in these files since the bot expects them to be in a certain format, but if you needed to copy data from them then you could do that.
+
 By now you have the bulk of the commands explained, the most frequently used ones during your typical hunt. To further clarify how best to use the bot, here's some more advanced situations to consider:
 
 ## Every Hunt After the First
