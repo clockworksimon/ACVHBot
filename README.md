@@ -91,8 +91,9 @@ A long time ago in a now-obsolete programming language I wrote an IRC bot. Twitc
 
 I've expanded and rewritten a lot of that code, but Bradley's article got me quickstarted in the beginning. I've also used community resources to ensure the most efficient way of doing things, such as:
 
-Count File Lines by Nima Ara: https://www.nimaara.com/counting-lines-of-a-text-file/
-The more robust file handling discussion by various contributors: https://stackoverflow.com/questions/4264117/how-to-delete-last-line-in-a-text-file
+- Count File Lines by Nima Ara: https://www.nimaara.com/counting-lines-of-a-text-file/
+- The more robust file handling discussion by various contributors: https://stackoverflow.com/questions/4264117/how-to-delete-last-line-in-a-text-file
+
 In the spirit of community, the full source code to the bot is available in this GitHub project.
 
 ## FAQ and Technical Details
