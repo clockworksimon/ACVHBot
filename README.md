@@ -86,6 +86,15 @@ All of chat can use these commands:
 
 At this time there aren't any other general chat commands. Almost all of the features are behind mod and streamer permissions to keep things organized.
 
+## Attribution
+A long time ago in a now-obsolete programming language I wrote an IRC bot. Twitch chat is based on the IRC protocol, and when I started to write this bot, I didn't want to revisit all my old work and redo it, so I found some very basic Twitch/IRC connection code, in the form of the SimpleTwitchBot by Bradley Saunders: https://medium.com/swlh/writing-a-twitch-bot-from-scratch-in-c-f59d9fed10f3
+
+I've expanded and rewritten a lot of that code, but Bradley's article got me quickstarted in the beginning. I've also used community resources to ensure the most efficient way of doing things, such as:
+
+Count File Lines by Nima Ara: https://www.nimaara.com/counting-lines-of-a-text-file/
+The more robust file handling discussion by various contributors: https://stackoverflow.com/questions/4264117/how-to-delete-last-line-in-a-text-file
+In the spirit of community, the full source code to the bot is available in this GitHub project.
+
 ## FAQ and Technical Details
 Q: Sometimes the bot crashes on startup with an error "Unable to read data from the transport connection" or similar wording. A: This is an unfortunate side effect of how Twitch chat works. I've tried to include error handling to smooth this over but it's a hard problem to solve because of its intermittent nature. It's something I keep working on, but just know that since it does only happen occasionally, closing the bot and opening it again usually works.
 
