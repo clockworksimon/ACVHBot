@@ -8,9 +8,14 @@ ACVHBot is this bot! I built it to solve all these problems while modding for a 
 How does this bot work? In brief: you, the streamer, download the app and install it on your PC and then your mods (or you!) control it via Twitch chat commands. Tracking the villagers is done by the mods (or you) and your chat can register their guesses with a simple command as well. It's best if the streamer installs the bot, so that they have access to the counter text file, but a mod can also own and operate the bot and all the functions aside from this will still work.
 
 ## Getting Started
-+ Download the Installer (Link Coming Soon!) and run it to install the bot. The bot only runs on Windows PCs and requires the .NET Framework. See the FAQ below if you run into any issues.
-+ When you first launch the bot, it'll invite you to open the config. You'll need to set some basic options, such as the user the bot will log into Twitch as and the channel it should join on login.
-+ After that basic setup is complete, the bot will be present in the chosen channel and you'll see it report for duty.
++ In order to run the app on your PC you'll need to install it. Since I'm an unknown developer without company backing, there's a few things you should know before clicking the download link:
+++ When you download the installer your browser may let you know that it isn't commonly downloaded and could be a security risk. You'll need to choose to keep/accept the download and then run it to launch the installer.
+++ When you run the installer, Windows will let you know that the app is unrecognized. You may have to click More Info and then Run Anyway or otherwise accept a Windows popup to run the installer.
+++ If I was popular and willing to spend 0 - ,200 annually on a security certificate, I might be able to solve for these problems, but sadly both are outside my reach.
+++ The ACVHBot Installer can be downloaded here, from the Releases section in the sidebar.
+++ The bot runs on Microsoft's .NET technology. If you haven't run other .NET apps on your PC before, the bot may stop with a fatal error on launch. If this happens, install .NET 5.0 from Microsoft. At the time of writing the latest 5.0 release is .NET Runtime 5.0.12 and you'll most likely want the x64 or x86 download. If you're not sure which one, try the x64 download first. Close the bot's window and reopen it to relaunch it after installing .NET 5.
++ When you first successfully launch the bot, it'll invite you to open the config. You'll need to set some basic options, such as the user the bot will log into Twitch as and the channel it should join on login. The config will open in a web browser. It's connected to a temporary server on your PC that the bot opens for the purpose of easy configuration and then closes again. Follow the instructions on screen and remember to click the save or cancel buttons as appropriate.
++ After that basic setup is complete, the bot will be present in the chosen Twitch channel and you'll see it report for duty. If you open that Twitch stream yourself as a mod or the streamer, you can type !vh ident in chat to see if the bot responds.
 + Continue reading below for instructions on how to use the bot.
 
 ## First Steps Before Your First Hunt
