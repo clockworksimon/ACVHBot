@@ -163,7 +163,7 @@ namespace ACVillagerHuntBot
             MessagesText.Add(Messages.FoundOnCongrats, "/me we found {0} on island {1}!! Congratulations!");
             MessagesText.Add(Messages.FinalGuess, "/me the final island was the guess of: {0}");
             MessagesText.Add(Messages.OnTheWayTo, "/me we are on the way to island {0}.");
-            MessagesText.Add(Messages.UndefinedHunt, "/me no hunt is defined. issue !vh sethunt <name> to configure.");
+            MessagesText.Add(Messages.UndefinedHunt, "/me no hunt is defined. issue !vh hunt follow <name> to configure.");
             MessagesText.Add(Messages.NoGuessForIsland, "/me nobody has a guess for island {0}");
             MessagesText.Add(Messages.GuessNotFound, "/me ope-- {0} was not found anywhere in the list of guesses 4Head");
             MessagesText.Add(Messages.RecordedTheseGuesses, "/me recorded these guesses for {0}: {1}");
@@ -329,7 +329,6 @@ namespace ACVillagerHuntBot
                                 if (strKey.Equals(Enum.GetName(ConfigurationBot.SystemParams.TwitchOAuth)) && nvcParams[strKey].ToString().StartsWith("oauth", true, null)) {
                                     nvcParams[strKey] = Protect.Encrypt(nvcParams[strKey]);
                                 }
-                                Console.WriteLine(String.Format("Key: {0} Value: {1}", strKey, nvcParams[strKey]));
                                 if (straSPs.Contains(strKey) && (!BotSystemParams[(ConfigurationBot.SystemParams)Enum.Parse(typeof(ConfigurationBot.SystemParams), strKey)].Equals(nvcParams[strKey]))) {
                                     BotSystemParams[(ConfigurationBot.SystemParams)Enum.Parse(typeof(ConfigurationBot.SystemParams), strKey)] = nvcParams[strKey];
                                     bSaveNeeded = true;
