@@ -8,7 +8,7 @@ ACVHBot is this bot! I built it to solve all these problems while modding for a 
 How does this bot work? In brief: you, the streamer, download the app and install it on your PC and then your mods (or you!) control it via Twitch chat commands. Tracking the villagers is done by the mods (or you) and your chat can register their guesses with a simple command as well. It's best if the streamer installs the bot, so that they have access to the counter text file, but a mod can also own and operate the bot and all the functions aside from this will still work.
 
 ## Getting Started
-1. In order to run the app on your PC you'll need to install it. Since I'm an unknown developer without company backing, there's a few things you should know before clicking the download link:
+1. In order to run the app on your Windows PC (Sadly no Mac version is available) you'll need to install it. Since I'm an unknown developer without company backing, there's a few things you should know before clicking the download link:
  - When you download the installer your browser may let you know that it isn't commonly downloaded and could be a security risk. You'll need to choose to keep/accept the download and then run it to launch the installer.
  -  When you run the installer, Windows will let you know that the app is unrecognized. You may have to click More Info and then Run Anyway or otherwise accept a Windows popup to run the installer.
  -  If I was popular and willing to spend $700 - $1,200 annually on a security certificate, I might be able to solve for these problems, but sadly both are outside my reach.
@@ -99,7 +99,7 @@ In the spirit of community, the full source code to the bot is available in this
 ## FAQ and Technical Details
 Q: Sometimes the bot crashes on startup with an error "Unable to read data from the transport connection" or similar wording. A: This is an unfortunate side effect of how Twitch chat works. I've tried to include error handling to smooth this over but it's a hard problem to solve because of its intermittent nature. It's something I keep working on, but just know that since it does only happen occasionally, closing the bot and opening it again usually works.
 
-Q: The bot quits with a Framework error. A: The bot is written in the C# .NET programming language using VS Code / .NET Core / Microsoft .NET technology. Microsoft offers .NET Framework installation instructions for Windows 10 over here, and for older versions of Windows over here. You can also typically find .NET as an optional component if you open Windows Update in your Windows settings.
+Q: The bot quits with a Framework error. A: The bot is written in the C# .NET programming language using VS Code / .NET Core / Microsoft .NET technology. Microsoft offers .NET Framework installation here: https://dotnet.microsoft.com/download/dotnet
 
 Q: Why is the bot not available on Mac? A: I don't own a Mac and therefore can't test and build the bot for MacOS. I also don't know anything about developing on that OS and wouldn't feel comfortable claiming to have produced an app for a platform that I don't use and am not familiar with.
 
